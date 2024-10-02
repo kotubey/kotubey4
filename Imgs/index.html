@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Animation Example</title>
+    
+    <!-- Фавіконка -->
+    <link rel="icon" type="image/png" href="iconka.png" sizes="32x32">
+    
+    <!-- Підключення CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-block">
+            <img src="avatarka.png" alt="Avatar Image" class="image1">
+            <p>Аватарка</p>
+        </div>
+        <div class="image-block">
+            <img src="Baner.jpg" alt="Banner Image" class="image2">
+            <p>Банер</p>
+        </div>
+        <div class="image-block">
+            <img src="Happyy.jpg" alt="Happy Image" class="image3">
+            <p>Відкритка</p>
+        </div>
+        <div class="image-block">
+            <img src="kolabs.jpg" alt="Collaboration Image" class="image4">
+            <p>Фотоколаж</p>
+        </div>
+        <div class="image-block">
+            <img src="Logo.jpg" alt="Logo Image" class="image5">
+            <p>Логотип</p>
+        </div>
+        <div class="image-block">
+            <img src="mem.jpg" alt="Mem Image" class="image6">
+            <p>Мем</p>
+        </div>
+        <div class="image-block">
+            <img src="vladle.svg" alt="Funny Cat 3D Illustration" class="image7">
+            <p>SVG зображення</p>
+        </div>
+        <div class="image-block">
+            <img src="fon-.png" alt="Image without background" class="image8">
+            <p>Без фону</p>
+        </div>
+        <div class="image-block">
+            <img src="fon+.png" alt="Image with background" class="image9">
+            <p>З додатним фоном</p>
+        </div>
+        <!-- Додане SVG зображення -->
+        <div class="image-block">
+            <svg class="circle-svg" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+                <!-- Створюємо коло з червоною заливкою та чорною рамкою -->
+                <circle cx="75" cy="75" r="60" fill="red" stroke="black" stroke-width="4" />
+            </svg>
+            <p>Просте SVG коло</p>
+        </div>
+    </div>
+
+    <!-- Опис сторінки -->
+    <div class="description">
+        <h2>Опис сторінки</h2>
+        <p>На цій сторінці продемонстровано кілька прикладів роботи з різними типами зображень:</p>
+        <ul>
+            <li><strong>Анімація прозорості</strong> застосована до першого зображення ("Аватарка"), де зображення поступово зникає і знову з'являється.</li>
+            <li><strong>Зменшення та анімація при наведенні</strong> реалізовані для всіх зображень, які масштабуються при наведенні курсору.</li>
+            <li><strong>SVG-анімація</strong> показана на прикладі зображення "Funny Cat 3D Illustration", яке постійно обертається.</li>
+            <li>Додано <strong>прості SVG-фігури</strong> у вигляді червоного кола з чорною рамкою.</li>
+            <li>Для оформлення сторінки використано кілька інструментів для вибору кольорової гами:
+                <ul>
+                    <li><strong>Color Wheel</strong> – використаний для підбору основного синього фону (#1E90FF) та білого тексту (#FFFFFF).</li>
+                    <li><strong>Extract Theme</strong> – обрано кольори для заголовків: помаранчевий (#FF4500) та жовтий (#FFD700).</li>
+                    <li><strong>Extract Gradient</strong> – застосовано градієнт для фону контейнера, що поєднує синій та жовтий кольори.</li>
+                    <li><strong>Contrast Checker</strong> – використаний для забезпечення контрастності між текстом і фоном (синій фон та білий текст).</li>
+                    <li><strong>Color Blind Safe</strong> – обрано зелений колір (#228B22) для іконок та елементів навігації, який є безпечним для більшості типів кольоросприйняття.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

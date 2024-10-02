@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1E90FF; /* Синій фон */
+    color: #FFFFFF; /* Білий текст */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    background: linear-gradient(to right, #1E90FF, #FFD700); /* Градієнт для фону контейнера */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.description {
+    width: 90%;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.image-block {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-block img, .image-block svg {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.image-block p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.image-block img:hover, .image-block svg:hover {
+    transform: scale(1.05);
+}
+
+/* Анімація обертання для SVG */
+.image7 {
+    width: 100px;
+    height: auto;
+    animation: rotate 10s linear infinite;
+}
+
+.circle-svg {
+    animation: rotate 10s linear infinite;
+    width: 100px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
